@@ -1,12 +1,12 @@
 # NavBarTransparentToColor
 
-This code is an example of how to make a navigation controller transparent and change the color with the scroll offset.
+This code is an example of how to make a navigation controller nav bar transparent and change the color with the scroll down offset.
 
 ## the initial state show us the navigation bar transparent.
 
 ![Alt text](https://github.com/ICCanche/NavbarTransparentToSolid/blob/master/screen1.png?raw=true)
 
-## when the user scrolls down the view the nav bar start to reduce the transparency.
+## when the user scrolls down the view, the nav bar starts to reduce the transparency.
 
 ![Alt text](https://github.com/ICCanche/NavbarTransparentToSolid/blob/master/screen2.png?raw=true)
 
