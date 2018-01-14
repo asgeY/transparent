@@ -9,7 +9,8 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-
+    @IBOutlet weak var bannerImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,8 +35,8 @@ class ViewController: UITableViewController {
     }
     
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        var offset = scrollView.contentOffset.y / 267
-        
+        var offset = scrollView.contentOffset.y / bannerImageView.frame.height
+        print(offset)
         if (offset >= 0.76) {
             offset = 1
         }
